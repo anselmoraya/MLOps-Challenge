@@ -1,4 +1,4 @@
-FROM python:3.9.10-bullseye
+FROM python:3.9.10-slim-bullseye
 LABEL maintainer="anselmoraya"
 
 ENV PYTHONPATH /
@@ -14,4 +14,3 @@ RUN jupyter nbconvert --to script src/MLOpsChallenge_v2.ipynb
 
 
 ENTRYPOINT ["pipenv","run", "python", "src/MLOpsChallenge_v2.py"]
-CMD ["version"]
