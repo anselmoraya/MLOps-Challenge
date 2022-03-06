@@ -6,11 +6,10 @@ name = "pypi"
 [packages]
 numpy = "1.22.2"
 sklearn = "0.0"
-pickle5 = "*"
-numpyencoder = "*"
+numpyencoder = "1.22.2"
 
 [dev-packages]
-jupyter = "*"
+jupyter = "1.0.0"
 
 [requires]
 python_version = "3.9"
