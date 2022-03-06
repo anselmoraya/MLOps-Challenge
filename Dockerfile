@@ -1,9 +1,10 @@
 FROM python:3.9 AS build
-LABEL maintainer="raya.anselmo@gmail.com"
+LABEL maintainer="anselmoraya"
 
 ENV PYTHONPATH /
 ENV PIPENV_VENV_IN_PROJECT=true
 COPY . .
+RUN apt-get update && apt-get install -y 
 RUN pip install pipenv
 RUN pipenv lock -r > requirements.txt
 RUN pipenv lock --dev -r > requirements-dev.txt

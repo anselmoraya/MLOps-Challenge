@@ -24,6 +24,8 @@ on:
 
 jobs:
   snyk:
+    environment: 
+      name: prod
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
