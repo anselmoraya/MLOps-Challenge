@@ -6,7 +6,7 @@ on:
 
 jobs:
 
-  pytest:
+  build:
 
     runs-on: ubuntu-latest
 
