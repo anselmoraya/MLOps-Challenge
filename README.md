@@ -1,6 +1,6 @@
 # MLOps-Challenge
 
-Take the model above and do the following:
+## Take the model above and do the following:
 * Set up a repository for this model in a public github repo
 * Serialize this model
 * Containerize this model (ie write a Dockerfile that the model can run in)
@@ -8,3 +8,13 @@ Take the model above and do the following:
 * Set up a CI Tool on your repo. Because your repo is public many CI Tools have free licenses for open source software, please use one of those
 * Add a test for the accuracy of your model
 * Minimal documentation
+
+
+
+```
+docker build -t mlops:latest .
+```
+
+```
+docker run -it mlops
+```
