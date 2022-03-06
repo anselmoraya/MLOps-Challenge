@@ -1,8 +1,8 @@
-name: Mark stale issues and pull requests
+name: Mark stale issues and PRs
 
 on:
   schedule:
-  - cron: '41 19 * * *'
+  - cron: '41 15 * * *'
 
 jobs:
   stale:
