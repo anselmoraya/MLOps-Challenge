@@ -1,6 +1,6 @@
 # MLOps-Challenge
 
-## Take the model above and do the following:
+## Instructions
 * Set up a repository for this model in a public github repo
 * Serialize this model
 * Containerize this model (ie write a Dockerfile that the model can run in)
@@ -10,11 +10,35 @@
 * Minimal documentation
 
 
+### Pubic Github Repo
+```
+https://github.com/anselmoraya/MLOps-Challenge
+```
 
+### Serialize this model (JSON)
 ```
-docker build -t mlops:latest .
+❯ docker run -it mlops                
+[3.7155025553662675]
 ```
 
+### Containerize this model 
 ```
-docker run -it mlops
+❯ docker images      
+REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
+mlops        latest    a9e9e4831e1b   1 hours ago    1.3GB
 ```
+
+### Minimal Unit Test
+```
+❯ pytest tests --cov                                       
+---------- coverage: platform darwin, python 3.9.10-final-0 ----------
+Name    Stmts   Miss Branch BrPart  Cover   Missing
+---------------------------------------------------
+---------------------------------------------------
+TOTAL      15      0      0      0   100%
+```
+
+### Set up a CI Tool
+* [Github Actions](https://github.com/anselmoraya/MLOps-Challenge/actions)
+
+### Test for the accuracy
