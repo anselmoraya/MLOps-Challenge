@@ -30,15 +30,14 @@ Before we get started, I wanted to mention the original file appears to be an HT
 
 ### Run docker (JSON Output)
 ```
-❯ docker run -it mlops   
-[3.7155025553662675]
+❯ docker run -it mlops
+Loading .env environment variables...
+{"score_r2": 0.9000244324476292, "output": [3.7155025553662675]}
 ```
 
 ### Run Tests
 ```
 ❯ pytest tests --cov 
-
-
 ---------- coverage: platform darwin, python 3.9.10-final-0 ----------
 Name    Stmts   Miss Branch BrPart  Cover   Missing
 -------------------------------------------------
