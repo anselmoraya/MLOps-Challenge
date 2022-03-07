@@ -21,6 +21,7 @@ Before we get started, I wanted to mention the original file appears to be an HT
 ```
 ❯ jupyter notebook
 ```
+* http://localhost:8888/notebooks/src/MLOpsChallenge_v2.ipynb
 
 ### Build docker file
 ```
