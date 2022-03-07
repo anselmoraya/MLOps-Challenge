@@ -33,7 +33,12 @@ jobs:
     - name: Generate py file
       run: |
         pipenv run jupyter nbconvert --to script src/MLOpsChallenge_v2.ipynb           
-    - name: Test with pytest
+    - name: Unit testing with pytest
+      run: |
+        pipenv run pytest tests --cov
+      env:
+        PYTHONPATH: ./
+    - name: Accuracy testing (accuracy)
       run: |
         pipenv run pytest tests --cov
       env:
