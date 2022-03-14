@@ -1,4 +1,4 @@
-# MLOps-Challenge
+# MLOps Workflow
 This project is an example on how to apply MLOps principles to a Jupyter notebook.  Below are the topics that were to be covered.
 
 * **MLOpsChallenge_v2.ipynb**
