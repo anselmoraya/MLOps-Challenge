@@ -1,11 +1,7 @@
 # MLOps-Challenge
-This project is a technical assessment meant to take a notebook and apply MLOps principles to the workflow.  Below are the topics that were to be covered.
+This project is an example on how to apply MLOps principles to a Jupyter notebook.  Below are the topics that were to be covered.
 
-### Quick Notes
-Before we get started, I wanted to mention the original file appears to be an HTML file with a jupyter notebook extension. I recreated the notebook based on the image listed in the instructions. I also reached out to the Technical Recruiter and still waiting on instructions.
-
-* **MLOpsChallenge.ipynb** (Original File)
-* **MLOpsChallenge_v2.ipynb** (New File)
+* **MLOpsChallenge_v2.ipynb**
 
 ### Install Dependacies
 ```
